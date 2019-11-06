@@ -41,6 +41,24 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_package:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: "v1.0.0"
+      resolved-ref: "6834b5e1bd3d5f2bf09b2b53470204097e23eb79"
+      url: "https://github.com/nimengbo/flutterPackageDemo"
+    source: git
+    version: "0.0.1"
+  flutter_plugin:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: "v1.0.2"
+      resolved-ref: e243547c6807ccc2732c64c1777dae14b512d4ab
+      url: "https://github.com/nimengbo/flutterPluginDemo"
+    source: git
+    version: "0.0.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
